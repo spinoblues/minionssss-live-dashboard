@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-10-23T13:10:21Z",
+  "projects": {
+    "YouTube ASMR": {
+      "status": "unknown",
+      "summary": "GitHub YouTube publisher not yet verified.",
+      "evidence": "n8n Veo ASMR workflow inactive; separate GitHub Actions publishing may still operate."
+    },
+    "Little Doodle World": {
+      "status": "issue",
+      "summary": "Daily ebook production gate failed and is inactive.",
+      "evidence": "n8n execution #5788 error at 2026-10-23 04:30 UTC."
+    },
+    "Pinterest Affiliate": {
+      "status": "issue",
+      "summary": "Affiliate inventory publishing run canceled.",
+      "evidence": "n8n execution #5840 canceled at 2026-10-23 12:00 UTC."
+    },
+    "Gumroad": {
+      "status": "unknown",
+      "summary": "Product upload and sales integration not fully verified.",
+      "evidence": "No verified recent storefront publication."
+    },
+    "Payhip": {
+      "status": "unknown",
+      "summary": "Payhip upload and publication not fully verified.",
+      "evidence": "n8n Payhip PDF Pinterest workflow last execution #5722 succeeded, but publication is not confirmed."
+    },
+    "OpenLoop Store": {
+      "status": "unknown",
+      "summary": "Payment verification remains pending.",
+      "evidence": "n8n order workflow requires verified payment events."
+    },
+    "Storytelling Shorts": {
+      "status": "unknown",
+      "summary": "No verified recent publishing result.",
+      "evidence": "Separate GitHub/TikTok results not yet linked."
+    },
+    "Blogger AdSense": {
+      "status": "unknown",
+      "summary": "Blogger publishing workflow inactive.",
+      "evidence": "n8n Blogger workflows inactive; no recent confirmed post."
+    },
+    "Automation Control": {
+      "status": "issue",
+      "summary": "Mixed automation health: research failed; approval queue succeeded.",
+      "evidence": "n8n research phase 5 execution #5821 error; AdaptlyPost execution #5850 success."
+    },
+    "Project Analytics": {
+      "status": "unknown",
+      "summary": "Aggregate dashboard integration not yet connected.",
+      "evidence": "No verified continuous telemetry."
+    }
+  },
+  "events": [
+    "🚩 Little Doodle World — execution #5788 failed (04:30 UTC).",
+    "🚩 Pinterest Affiliate — execution #5840 canceled (12:00 UTC).",
+    "🚩 Automation Control — product research phase 5 execution #5821 failed (09:00 UTC).",
+    "✓ AdaptlyPost approval workflow — execution #5850 succeeded (13:10 UTC)."
+  ]
+}
